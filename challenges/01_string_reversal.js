@@ -28,8 +28,26 @@ function reverseWithFor(str) {
     return reversed;
 }
 
+// Third solution uses the array reduce helper method
+
+function reverseReduce(str) {
+    return str.split('').reduce((reversed, character) => {
+        return character + reversed;
+    }, '');
+}
+
+function reverseReduceOneLine(str) {
+    return str.split('').reduce((rev, char) => char + rev, '');
+}
+
 reversed_string = reverse("apple");
 console.log(reversed_string);
 
 reversed_string2 = reverseWithFor("google");
 console.log(reversed_string2);
+
+reversed_string3 = reverseReduce("amazon");
+console.log(reversed_string3);
+
+reversed_string4 = reverseReduceOneLine("facebook");
+console.log(reversed_string4);
