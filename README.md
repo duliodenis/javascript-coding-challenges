@@ -5,7 +5,8 @@ These JavaScript challenges cover important concepts for any coding interview in
 
 | No. | Challenge
 | ------------- | -------------
-| 1. | [Reverse a string](challenges/01_string_reversal.html)
+| 1. | [Reverse a string](challenges/01_string_reversal.js)
+| 2. | [Is a string a Palindrone](challenges/02_palindrone.js)
 
 ### Licensing
 My JavaScript Coding Challenges Solutions are licensed under [the MIT License](LICENSE).
